@@ -45,7 +45,7 @@ public class AGCCommand extends Command {
       if (!PlayerUtil.testPermission(sender, Rank.ADMIN)) {
          return true;
       } else if (!(sender instanceof Player)) {
-         sender.sendMessage(StringUtil.PLAYER_ONLY);
+         sender.sendMessage("AGC > Only Players Can Execute This Command!");
          return true;
       } else {
          Player player = (Player)sender;
