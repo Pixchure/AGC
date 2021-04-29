@@ -9,4 +9,4 @@ Me trying to patch out the mmc core
 
 
 
-#### Part Of The OMMC Project
+#### Part Of The OpenMMC Project
