@@ -12,7 +12,7 @@ public class WatchCommand implements SubCommand {
 
    public void execute(Player player, Player target, String[] args) {
       if (target == null) {
-         player.sendMessage(String.format(StringUtil.PLAYER_NOT_FOUND, args[1]));
+         player.sendMessage(String.format("AGC > Player Not Found!", args[1]));
       } else {
          PlayerData targetData = this.plugin.getPlayerDataManager().getPlayerData(target);
          targetData.togglePlayerWatching(player);
